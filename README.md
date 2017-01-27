@@ -24,101 +24,102 @@ Allows you to create HTML tables of arbitrary collections of homogeneous objects
 
 
   PARAMETERS
-    -inputObject <PSObject>
+  
+      -inputObject <PSObject>
 
-      Required?                    true
-      Position?                    1
-      Default value                
-      Accept pipeline input?       true (ByValue)
-      Accept wildcard characters?  false
+          Required?                    true
+          Position?                    1
+          Default value                
+          Accept pipeline input?       true (ByValue)
+          Accept wildcard characters?  false
 
-    -TableId <String>
+      -TableId <String>
 
-      Required?                    false
-      Position?                    2
-      Default value                
-      Accept pipeline input?       false
-      Accept wildcard characters?  false
+          Required?                    false
+          Position?                    2
+          Default value                
+          Accept pipeline input?       false
+          Accept wildcard characters?  false
 
-    -Tableclass <String>
+      -Tableclass <String>
 
-      Required?                    false
-      Position?                    3
-      Default value                
-      Accept pipeline input?       false
-      Accept wildcard characters?  false
+          Required?                    false
+          Position?                    3
+          Default value                
+          Accept pipeline input?       false
+          Accept wildcard characters?  false
 
-    -TableStyle <String>
+      -TableStyle <String>
 
-      Required?                    false
-      Position?                    4
-      Default value                
-      Accept pipeline input?       false
-      Accept wildcard characters?  false
+          Required?                    false
+          Position?                    4
+          Default value                
+          Accept pipeline input?       false
+          Accept wildcard characters?  false
 
-    -THClass <String>
+      -THClass <String>
 
-      Required?                    false
-      Position?                    5
-      Default value                
-      Accept pipeline input?       false
-      Accept wildcard characters?  false
+          Required?                    false
+          Position?                    5
+          Default value                
+          Accept pipeline input?       false
+          Accept wildcard characters?  false
 
-    -THStyle <String>
+      -THStyle <String>
 
-      Required?                    false
-      Position?                    6
-      Default value                
-      Accept pipeline input?       false
-      Accept wildcard characters?  false
+          Required?                    false
+          Position?                    6
+          Default value                
+          Accept pipeline input?       false
+          Accept wildcard characters?  false
 
-    -style <String>
+      -style <String>
 
-      Required?                    false
-      Position?                    7
-      Default value                table {
-        border-collapse: collapse;
-        width: 100%;
-        font-family: sans-serif;
-      }
-      th, td {
-        padding: 8px;
-        text-align: left;
-        border-top: 1px solid black;
-        border-bottom: 1px solid black;
-        border-left: 2px solid black;
-        border-right: 2px solid black;
-      }
-      th {
-          background-color:lightgrey;
-          color: black;
-      }
-      tr {
-          background-color:#f5f5f5;
-          color: black;
-      }
-      tr:hover{
-          background-color:darkgrey !important;
-          color: black !important;
-      }
-      Accept pipeline input?       false
-      Accept wildcard characters?  false
+          Required?                    false
+          Position?                    7
+          Default value                table {
+            border-collapse: collapse;
+            width: 100%;
+            font-family: sans-serif;
+          }
+          th, td {
+            padding: 8px;
+            text-align: left;
+            border-top: 1px solid black;
+            border-bottom: 1px solid black;
+            border-left: 2px solid black;
+            border-right: 2px solid black;
+          }
+          th {
+              background-color:lightgrey;
+              color: black;
+          }
+          tr {
+              background-color:#f5f5f5;
+              color: black;
+          }
+          tr:hover{
+              background-color:darkgrey !important;
+              color: black !important;
+          }
+          Accept pipeline input?       false
+          Accept wildcard characters?  false
 
-    -Formatting <Hashtable>
+      -Formatting <Hashtable>
 
-      Required?                    false
-      Position?                    8
-      Default value                
-      Accept pipeline input?       false
-      Accept wildcard characters?  false
+          Required?                    false
+          Position?                    8
+          Default value                
+          Accept pipeline input?       false
+          Accept wildcard characters?  false
 
-    -addReload [<SwitchParameter>]
+      -addReload [<SwitchParameter>]
 
-      Required?                    false
-      Position?                    named
-      Default value                False
-      Accept pipeline input?       false
-      Accept wildcard characters?  false
+          Required?                    false
+          Position?                    named
+          Default value                False
+          Accept pipeline input?       false
+          Accept wildcard characters?  false
 
   INPUTS
     
